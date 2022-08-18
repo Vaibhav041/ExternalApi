@@ -1,0 +1,18 @@
+.List {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  /* background: slategrey; */
+}
+.List ul li {
+  display: inline-block;
+  width: 300px;
+  border: 2px solid skyblue;
+  padding: 15px;
+}
+.List ul {
+  margin: 0 0;
+}
